@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+		http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd http://disconf.tsinghuabigdata.com/schema/disconf ">
+
+    <context:property-placeholder location="classpath:application.properties" ></context:property-placeholder>
+
+
+    <!--数据源配置-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driverClasss}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+
+        <property name="defaultReadOnly" value="false"/>
+        <!-- 连接池的最大值 -->
+        <property name="maxActive" value="100"/>
+        <!-- 连接池启动时的初始值 -->
+        <property name="initialSize" value="5"/>
+        <!--  最小空闲值.当空闲的连接数少于阀值时，连接池就会预申请去一些连接，以免访问高峰时来不及申请 -->
+        <property name="minIdle" value="5"/>
+
+        <!-- 是否在连接从池中取出连接前进行检验，配合validationInterval，防止过度检查 -->
+        <property name="testOnBorrow" value="false"/>
+        <!-- 是否在归还连接到池中前进行检验 -->
+        <property name="testOnReturn" value="false"/>
+
+        <!-- 所有连接的检验都需要此配置 -->
+        <property name="validationQuery" value="select 'x'"/>
+        <property name="validationQueryTimeout" value="2"/>
+
+        <!-- 下面是连接池中连接校验相关配置 -->
+        <!-- “连接池中连接校验线程”（包含：
+                                      removeAbandoned、
+                 testWhileIdle[定时检查所有连接，每validationInterval执行一次validationQuery中的sql语句进行检查]、
+                 minIdle[当空闲连接数超过这个值时才执行连接检查，检查到超过minEvictableIdleTimeMillis这个时间的空闲连接将被移除，达到minIdle时停止检查） -->
+        <!-- “连接池中连接校验线程”每次执行的间隔时间，以毫秒为单位，大于1000时启用校验，这里配的是1分钟检查一次 -->
+        <property name="timeBetweenEvictionRunsMillis" value="60000"/>
+        <!--
+                                     连接是否被“连接池中连接校验线程”进行检验，如果检测失败， 则从池中移除
+                建议设置为true，不影响性能，并且保证系统稳定性和安全性 -->
+        <property name="testWhileIdle" value="true"/>
+        <!-- 空闲的连接在连接池中的最小时间，如果超过这个时间，则将被“空闲连接回收器线程”关闭，默认值60000毫秒  -->
+        <property name="minEvictableIdleTimeMillis" value="50000"/>
+
+        <!-- 记录被抛弃数据连接的堆栈轨迹,默认false; -->
+        <!-- <property name="logAbandoned" value="true"/> -->
+        <!-- 防止应用忘记把连接还到连接池,借出连接超过removeAbandonedTimeout(默认60秒)的连接就会被干掉，也是在前面的清理线程中进行检查,默认是false -->
+        <!-- <property name="removeAbandoned" value="true"/> -->
+        <!-- 1800 秒，也就是 30 分钟 -->
+        <!-- <property name="removeAbandonedTimeout" value="1800" /> -->
+        <property name="filters" value="stat,log4j" />
+    </bean>
+
+    <!--1.开启扫描
+        2.配置需要出入的包路径-->
+    <context:annotation-config/>
+    <context:component-scan base-package="com.diploma" />
+
+    <!-- SPRING - JPA -->
+    <jpa:repositories base-package="com.diploma.mysql.dao" transaction-manager-ref="transactionManager" entity-manager-factory-ref="entityManagerFactory"/>
+
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory"
+                  ref="entityManagerFactory" />
+    </bean>
+
+    <bean id="entityManagerFactory"
+          class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="dataSource"  />
+        <!--实体类所在的包路径-->
+        <property name="packagesToScan">
+            <list>
+                <value>com.diploma.mysql.model</value>
+            </list>
+        </property>
+        <property name="jpaDialect">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect" />
+        </property>
+        <property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+                <property name="generateDdl" value="false" />
+                <property name="showSql" value="false"/>
+                <property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect"/>
+                <property name="database" value="MYSQL"/>
+            </bean>
+        </property>
+        <property name="jpaProperties">
+            <value>
+                hibernate.generate_statistics = true
+                javax.persistence.validation.mode = none
+            </value>
+        </property>
+    </bean>
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <!-- 使用主库的service业务操作 -->
+            <tx:method name="save*" propagation="REQUIRED" rollback-for="Exception"/>
+            <tx:method name="add*" read-only="false" propagation="REQUIRED" rollback-for="Exception"/>
+            <tx:method name="revert*" read-only="false" propagation="REQUIRED" rollback-for="Exception"/>
+            <tx:method name="del*" read-only="false" propagation="REQUIRED" rollback-for="Exception"/>
+            <tx:method name="modify*" read-only="false" propagation="REQUIRED" rollback-for="Exception"/>
+            <tx:method name="update*" read-only="false" propagation="REQUIRED" rollback-for="Exception"/>
+            <tx:method name="*" read-only="true" />
+        </tx:attributes>
+    </tx:advice>
+    <!--   通过AOP切入  -->
+    <aop:config>
+        <aop:pointcut id="newServicesPointcut"
+                      expression="execution(* com.diploma.service..*(..)) " />
+        <aop:advisor advice-ref="txAdvice"
+                     pointcut-ref="newServicesPointcut" />
+    </aop:config>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+</beans>
