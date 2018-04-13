@@ -1,0 +1,210 @@
+2018-03-21 17:12:44,910 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider www.cnblogs.com started!
+2018-03-21 17:12:45,254 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/
+2018-03-21 17:12:45,687 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8182376.html
+2018-03-21 17:12:46,027 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8179202.html
+2018-03-21 17:12:46,252 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8068045.html
+2018-03-21 17:12:46,412 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7997430.html
+2018-03-21 17:12:46,607 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7956048.html
+2018-03-21 17:12:46,804 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7913365.html
+2018-03-21 17:12:46,961 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7831157.html
+2018-03-21 17:12:47,117 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7670256.html
+2018-03-21 17:12:47,307 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7701260.html
+2018-03-21 17:12:47,469 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7603381.html
+2018-03-21 17:12:47,571 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider www.cnblogs.com closed! 11 pages downloaded.
+2018-03-21 17:12:57,325 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider www.cnblogs.com started!
+2018-03-21 17:12:57,644 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/
+2018-03-21 17:12:57,994 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8182376.html
+2018-03-21 17:12:58,285 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8179202.html
+2018-03-21 17:12:58,461 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8068045.html
+2018-03-21 17:12:58,619 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7997430.html
+2018-03-21 17:12:58,783 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7956048.html
+2018-03-21 17:12:58,947 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7913365.html
+2018-03-21 17:12:59,115 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7831157.html
+2018-03-21 17:12:59,273 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7670256.html
+2018-03-21 17:12:59,440 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7701260.html
+2018-03-21 17:12:59,605 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7603381.html
+2018-03-21 17:12:59,708 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider www.cnblogs.com closed! 11 pages downloaded.
+2018-03-21 17:13:16,712 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider www.cnblogs.com started!
+2018-03-21 17:13:17,033 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/
+2018-03-21 17:19:58,461 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8182376.html
+2018-03-21 17:19:58,802 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8179202.html
+2018-03-21 17:19:58,969 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8068045.html
+2018-03-21 17:19:59,128 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7997430.html
+2018-03-21 17:19:59,331 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7956048.html
+2018-03-21 17:19:59,489 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7913365.html
+2018-03-21 17:19:59,731 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7831157.html
+2018-03-21 17:19:59,899 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7670256.html
+2018-03-21 17:20:00,099 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7701260.html
+2018-03-21 17:20:00,270 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7603381.html
+2018-03-21 17:20:00,373 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider www.cnblogs.com closed! 11 pages downloaded.
+2018-03-21 17:20:21,034 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider www.cnblogs.com started!
+2018-03-21 17:20:21,312 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/
+2018-03-21 17:20:21,576 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8182376.html
+2018-03-21 17:20:21,875 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8179202.html
+2018-03-21 17:20:22,037 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8068045.html
+2018-03-21 17:20:22,203 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7997430.html
+2018-03-21 17:20:22,364 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7956048.html
+2018-03-21 17:20:22,523 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7913365.html
+2018-03-21 17:20:22,681 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7831157.html
+2018-03-21 17:20:22,839 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7670256.html
+2018-03-21 17:20:22,997 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7701260.html
+2018-03-21 17:20:23,151 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7603381.html
+2018-03-21 17:20:23,253 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider www.cnblogs.com closed! 11 pages downloaded.
+2018-03-21 17:20:55,443 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider www.cnblogs.com started!
+2018-03-21 17:20:55,713 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/
+2018-03-21 17:22:31,828 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8182376.html
+2018-03-21 17:22:34,400 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8179202.html
+2018-03-21 17:22:37,150 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8068045.html
+2018-03-21 17:22:37,810 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7997430.html
+2018-03-21 17:22:38,536 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7956048.html
+2018-03-21 17:22:39,619 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7913365.html
+2018-03-21 17:22:40,271 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7831157.html
+2018-03-21 17:22:40,843 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7670256.html
+2018-03-21 17:22:41,507 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7701260.html
+2018-03-21 17:22:42,051 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7603381.html
+2018-03-21 17:22:42,540 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider www.cnblogs.com closed! 11 pages downloaded.
+2018-03-21 17:27:36,851 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 17:27:38,331 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 17:30:35,456 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 17:31:03,372 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 17:31:04,730 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 17:47:55,372 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider www.cnblogs.com started!
+2018-03-21 17:47:55,681 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/
+2018-03-21 17:47:56,019 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8182376.html
+2018-03-21 17:47:56,316 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8179202.html
+2018-03-21 17:47:56,505 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8068045.html
+2018-03-21 17:47:56,660 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7997430.html
+2018-03-21 17:47:56,817 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7956048.html
+2018-03-21 17:47:56,974 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7913365.html
+2018-03-21 17:47:57,129 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7831157.html
+2018-03-21 17:47:57,283 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7670256.html
+2018-03-21 17:47:57,445 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7701260.html
+2018-03-21 17:47:57,599 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7603381.html
+2018-03-21 17:47:57,701 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider www.cnblogs.com closed! 11 pages downloaded.
+2018-03-21 17:48:07,421 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider www.cnblogs.com started!
+2018-03-21 17:48:07,668 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/
+2018-03-21 17:48:08,020 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider www.cnblogs.com closed! 1 pages downloaded.
+2018-03-21 17:48:17,457 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider www.cnblogs.com started!
+2018-03-21 17:48:17,728 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/
+2018-03-21 17:48:17,977 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider www.cnblogs.com closed! 1 pages downloaded.
+2018-03-21 17:48:34,903 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider www.cnblogs.com started!
+2018-03-21 17:48:35,147 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/
+2018-03-21 17:48:35,563 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8182376.html
+2018-03-21 17:48:35,957 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8179202.html
+2018-03-21 17:48:36,145 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/8068045.html
+2018-03-21 17:48:36,313 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7997430.html
+2018-03-21 17:48:36,479 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7956048.html
+2018-03-21 17:48:36,642 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7913365.html
+2018-03-21 17:48:36,805 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7831157.html
+2018-03-21 17:48:36,968 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7670256.html
+2018-03-21 17:48:37,134 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7701260.html
+2018-03-21 17:48:37,294 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://www.cnblogs.com/justcooooode/p/7603381.html
+2018-03-21 17:48:37,397 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider www.cnblogs.com closed! 11 pages downloaded.
+2018-03-21 17:49:14,674 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 17:49:16,211 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:16:29,620 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:16:40,966 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:16:42,347 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:17:31,556 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:17:39,191 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:17:40,454 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:18:30,132 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:18:35,487 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:18:36,334 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:19:37,530 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:19:42,302 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:19:43,332 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:19:54,121 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:19:59,562 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:20:00,635 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:20:16,863 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:20:18,358 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:21:10,691 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:21:11,522 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:21:53,706 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:21:58,119 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:22:00,203 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:22:17,482 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:22:22,936 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:22:23,919 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:22:43,034 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:22:50,009 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:22:51,272 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:23:15,682 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:23:19,977 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:23:21,525 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:24:01,290 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:24:06,901 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:24:08,272 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:24:41,435 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:24:46,288 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:24:46,854 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:25:44,906 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:25:49,578 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:25:49,959 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:26:25,698 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:26:30,036 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:26:31,118 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:26:31,432 ERROR [pool-1-thread-1] us.codecraft.webmagic.Spider (Spider.java:run(324)) - process request Request{url='http://book.dangdang.com', method='null', extras=null, priority=0, headers={}, cookies={}} error
+java.lang.IllegalArgumentException: Need AND/OR between two predicate! "storey_one_left"
+	at us.codecraft.xsoup.xevaluator.XPathParser.consumePredicates(XPathParser.java:223)
+	at us.codecraft.xsoup.xevaluator.XPathParser.findElements(XPathParser.java:163)
+	at us.codecraft.xsoup.xevaluator.XPathParser.parse(XPathParser.java:76)
+	at us.codecraft.xsoup.xevaluator.XPathParser.parse(XPathParser.java:408)
+	at us.codecraft.xsoup.xevaluator.XPathParser.combinator(XPathParser.java:110)
+	at us.codecraft.xsoup.xevaluator.XPathParser.parse(XPathParser.java:74)
+	at us.codecraft.xsoup.xevaluator.XPathParser.parse(XPathParser.java:408)
+	at us.codecraft.xsoup.Xsoup.compile(Xsoup.java:25)
+	at us.codecraft.webmagic.selector.XpathSelector.<init>(XpathSelector.java:21)
+	at us.codecraft.webmagic.selector.Selectors.xpath(Selectors.java:32)
+	at us.codecraft.webmagic.selector.HtmlNode.xpath(HtmlNode.java:42)
+	at com.price.comparision.Spider.process(Spider.java:17)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-21 18:26:31,436 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:26:43,798 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:26:45,521 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:26:45,841 ERROR [pool-1-thread-1] us.codecraft.webmagic.Spider (Spider.java:run(324)) - process request Request{url='http://book.dangdang.com', method='null', extras=null, priority=0, headers={}, cookies={}} error
+java.lang.IllegalArgumentException: Need AND/OR between two predicate! "storey_one_left"
+	at us.codecraft.xsoup.xevaluator.XPathParser.consumePredicates(XPathParser.java:223)
+	at us.codecraft.xsoup.xevaluator.XPathParser.findElements(XPathParser.java:163)
+	at us.codecraft.xsoup.xevaluator.XPathParser.parse(XPathParser.java:76)
+	at us.codecraft.xsoup.xevaluator.XPathParser.parse(XPathParser.java:408)
+	at us.codecraft.xsoup.xevaluator.XPathParser.combinator(XPathParser.java:110)
+	at us.codecraft.xsoup.xevaluator.XPathParser.parse(XPathParser.java:74)
+	at us.codecraft.xsoup.xevaluator.XPathParser.parse(XPathParser.java:408)
+	at us.codecraft.xsoup.Xsoup.compile(Xsoup.java:25)
+	at us.codecraft.webmagic.selector.XpathSelector.<init>(XpathSelector.java:21)
+	at us.codecraft.webmagic.selector.Selectors.xpath(Selectors.java:32)
+	at us.codecraft.webmagic.selector.HtmlNode.xpath(HtmlNode.java:42)
+	at com.price.comparision.Spider.process(Spider.java:17)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-21 18:26:45,845 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:27:25,220 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:27:27,331 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:29:33,779 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:29:39,064 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:29:42,342 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:31:37,834 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:31:46,888 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:31:48,386 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:32:49,778 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:32:55,644 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:32:56,743 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:32:59,585 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.
+2018-03-21 18:33:02,094 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(306)) - Spider book.dangdang.com started!
+2018-03-21 18:33:02,805 INFO  [pool-1-thread-1] us.codecraft.webmagic.downloader.HttpClientDownloader (HttpClientDownloader.java:download(88)) - downloading page success http://book.dangdang.com
+2018-03-21 18:34:31,444 INFO  [main] us.codecraft.webmagic.Spider (Spider.java:run(338)) - Spider book.dangdang.com closed! 1 pages downloaded.

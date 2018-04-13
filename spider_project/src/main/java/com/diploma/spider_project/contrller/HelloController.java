@@ -1,0 +1,14 @@
+package com.diploma.spider_project.contrller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+
+    @RequestMapping("/hello")
+    public String hello() {
+        return "Hello Spring Boot!";
+    }
+
+}
