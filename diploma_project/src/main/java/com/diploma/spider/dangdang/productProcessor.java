@@ -21,6 +21,7 @@ public class productProcessor implements PageProcessor{
     Site site=Site.me().setSleepTime(1000).setRetryTimes(3);
     @Override
     public void process(Page page) {
+        ApplicationContext applicationContext= new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
         Html html=page.getHtml();
         String url=page.getRequest().getUrl();
         String productId="";
