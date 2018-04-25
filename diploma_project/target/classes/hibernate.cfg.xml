@@ -9,6 +9,9 @@
       <mapping class="com.diploma.mysql.model.HistoryPrice"/>
       <mapping class="com.diploma.mysql.model.Product"/>
       <mapping class="com.diploma.mysql.model.Urlvo"/>
+      <mapping class="com.diploma.mysql.model.ProductDetail"/>
+      <mapping class="com.diploma.mysql.model.Category"/>
+      <mapping class="com.diploma.mysql.model.CategoryDescription"/>
       <!-- <property name="connection.username"/> -->
     <!-- <property name="connection.password"/> -->
 

@@ -17,8 +17,6 @@ public class SpiderServiceImplTest extends JniteBase {
     @Autowired
     private UrlService urlService;
     @Autowired
-    private MysqlPipeline mysqlPipeline;
-    @Autowired
     private TypeRepository typeRepository;
 
     @Test
@@ -30,7 +28,7 @@ public class SpiderServiceImplTest extends JniteBase {
     @Test
     public void saveUrl(){
         Urlvo urlvo=new Urlvo();
-        urlvo.setUrlId("1");
+        urlvo.setUrlId("2");
         urlvo.setName("冰箱");
 //        urlvo.setUrl("//list.tmall.com/search_product.htm?cat=50918004&acm=lb-zebra-24139-328537.1003.4.455785&scm=1003.4.lb-zebra-24139-328537.OTHER_14458832193540_455785");
         urlService.saveUrl(urlvo);

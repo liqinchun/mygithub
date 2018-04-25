@@ -9,16 +9,33 @@
     <option name="selectedJavaProfile" value="GoogleStyle_JAWS" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../../mydiplomaproject/tmall" />
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../mydiplomaproject/tmall/tmall/pom.xml" />
+        <option value="$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$/../../svn/tem/product/portal/service/operation-center/branch/dd13.0-oc2.3">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="http://172.16.2.222:18080/svn/tem/code/product/portal/service/operation-center/branch/dd13.0-oc2.3" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="mySupportsUserInfoFilter" value="true" />
   </component>
 </project>

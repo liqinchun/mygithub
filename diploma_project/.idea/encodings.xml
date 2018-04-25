@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../mydiplomaproject/tmall" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../mydiplomaproject/tmall/tmall" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-extension" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-samples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-saxon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-scripts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-selenium" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../svn/tem/product/portal/service/operation-center/branch/dd13.0-oc2.3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../svn/tem/product/portal/service/operation-center/branch/dd13.0-oc2.3/operation-db-mysql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../svn/tem/product/portal/service/operation-center/branch/dd13.0-oc2.3/operation-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../svn/tem/product/portal/service/operation-center/branch/dd13.0-oc2.3/operation-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../svn/tem/product/portal/service/operation-center/branch/dd13.0-oc2.3/operation-utils-jar" charset="UTF-8" />
+  </component>
+</project>

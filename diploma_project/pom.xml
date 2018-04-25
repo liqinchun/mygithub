@@ -25,7 +25,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <!-- spring版本号 -->
-        <spring.version>3.2.6.RELEASE</spring.version>
+        <spring.version>4.1.3.RELEASE</spring.version>
 
         <!-- mysql驱动版本号 -->
         <mysql-driver.version>5.1.29</mysql-driver.version>
@@ -33,6 +33,8 @@
         <!-- log4j日志包版本号 -->
         <slf4j.version>1.7.18</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
+        <commons-fileupload.version>1.2.1</commons-fileupload.version>
+
 
         <version-hibernate.validator>5.0.1.Final</version-hibernate.validator>
         <version-hibernate.jpa>1.0.1.Final</version-hibernate.jpa>
@@ -128,12 +130,24 @@
             <artifactId>spring-aop</artifactId>
             <version>${spring.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>${spring.version}</version>
         </dependency>
 
+        <!-- pageHelper -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>${pagehelper.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>${commons-fileupload.version}</version>
+        </dependency>
         <!--hibernate的包-->
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -294,6 +308,11 @@
                     <artifactId>slf4j-log4j12</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
         </dependency>
     </dependencies>
 

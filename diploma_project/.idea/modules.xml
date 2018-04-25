@@ -3,6 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/diploma_project.iml" filepath="$PROJECT_DIR$/diploma_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../mydiplomaproject/tmall/tmall/tmall_ssm.iml" filepath="$PROJECT_DIR$/../../mydiplomaproject/tmall/tmall/tmall_ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-core/webmagic-core.iml" filepath="$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-core/webmagic-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-extension/webmagic-extension.iml" filepath="$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-extension/webmagic-extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-parent.iml" filepath="$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-samples/webmagic-samples.iml" filepath="$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-samples/webmagic-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-saxon/webmagic-saxon.iml" filepath="$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-saxon/webmagic-saxon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-scripts/webmagic-scripts.iml" filepath="$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-scripts/webmagic-scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-selenium/webmagic-selenium.iml" filepath="$PROJECT_DIR$/../../mydiplomaproject/webmagic-WebMagic-0.7.3/webmagic-selenium/webmagic-selenium.iml" />
     </modules>
   </component>
 </project>

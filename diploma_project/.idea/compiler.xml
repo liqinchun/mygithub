@@ -7,10 +7,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="diploma_project" />
+        <module name="tmall_ssm" />
+        <module name="webmagic-core" />
+        <module name="webmagic-extension" />
+        <module name="webmagic-samples" />
+        <module name="webmagic-saxon" />
+        <module name="webmagic-scripts" />
+        <module name="webmagic-selenium" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="diploma_project" target="1.5" />
+      <module name="diploma_project" target="1.6" />
+      <module name="operation-center" target="1.7" />
+      <module name="operation-db-mysql" target="1.7" />
+      <module name="operation-provider" target="1.7" />
+      <module name="operation-service" target="1.7" />
+      <module name="operation-utils-jar" target="1.7" />
+      <module name="tmall_ssm" target="1.8" />
+      <module name="webmagic-core" target="1.6" />
+      <module name="webmagic-extension" target="1.6" />
+      <module name="webmagic-parent" target="1.6" />
+      <module name="webmagic-samples" target="1.6" />
+      <module name="webmagic-saxon" target="1.6" />
+      <module name="webmagic-scripts" target="1.6" />
+      <module name="webmagic-selenium" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
