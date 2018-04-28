@@ -2,8 +2,11 @@ package com.diploma.service.impl;
 
 import com.diploma.mysql.dao.CatagoryResitory;
 import com.diploma.mysql.dao.HistoryPriceResitory;
+import com.diploma.mysql.dao.ProductDetailResitory;
+import com.diploma.mysql.dao.ProductResitory;
 import com.diploma.mysql.model.Category;
 import com.diploma.mysql.model.HistoryPrice;
+import com.diploma.mysql.model.ProductDetail;
 import com.diploma.mysql.vo.PriceVo;
 import com.diploma.pipeline.DDDetailPipeline;
 import com.diploma.service.ProductService;
@@ -22,6 +25,8 @@ public class ProductServiceimpl implements ProductService {
     private CatagoryResitory catagoryResitory;
     @Autowired
     private HistoryPriceResitory historyPriceResitory;
+    @Autowired
+    private ProductDetailResitory productDetailResitory;
     @Override
     public void saveProduct() {
         //从每个分类总取出url爬取
@@ -40,5 +45,15 @@ public class ProductServiceimpl implements ProductService {
     @Override
     public void saveProductPrice(HistoryPrice historyPrice) {
         historyPriceResitory.save(historyPrice);
+    }
+
+    @Override
+    public List<ProductDetail> findProductByKeyWord(String keyWord) {
+        return productDetailResitory.findAll();
+    }
+
+    @Override
+    public ProductDetail getProduct(String productId) {
+        return  productDetailResitory.findOne(productId);
     }
 }

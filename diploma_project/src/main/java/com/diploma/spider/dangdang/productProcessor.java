@@ -1,6 +1,8 @@
 package com.diploma.spider.dangdang;
+import com.diploma.mysql.dao.ProductDetailResitory;
 import com.diploma.mysql.model.HistoryPrice;
 import com.diploma.mysql.model.ProductDetail;
+import com.diploma.service.CatagoryService;
 import com.diploma.spider.MysqlPipeline;
 import com.diploma.util.MyJedisPoolUtil;
 import com.diploma.util.UUIDUtil;
@@ -22,33 +24,13 @@ public class productProcessor implements PageProcessor{
     @Override
     public void process(Page page) {
         ApplicationContext applicationContext= new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+        ProductDetailResitory productDetailResitory=(ProductDetailResitory)applicationContext.getBean("productDetailResitory");
+        CatagoryService catagoryService=(CatagoryService) applicationContext.getBean("catagoryServiceImpl");
         Html html=page.getHtml();
         String url=page.getRequest().getUrl();
         String productId="";
-        Jedis jedis=null;
 
-        //在redis中查询当前url是否查询过  如果查询过只去price存入historyPrice表中
-//        try{
-//            jedis=MyJedisPoolUtil.getJedis();
-//            productId=jedis.get(url);
-//            if (!productId.isEmpty()){
-//                List<String> price=html.xpath("//div[@class=\"product_wrapper\"]/div[@class=\"product_main clearfix\"]/div[@class=\"show_info\"]" +
-//                        "/div[@class=\"sale_box clearfix\"]/div[@id=\"product_info\"]/div[@class=\"price_info clearfix\"]/div[@id=\"pc-price\"]" +
-//                        "/div[@class=\"price_d\"]/p[@id=\"dd-price\"]/text()").all();
-//                HistoryPrice historyPrice=new HistoryPrice();
-//                historyPrice.setProductId(productId);
-//                historyPrice.setPriceId(UUIDUtil.getUUID());
-//                historyPrice.setPrice(price.get(0));
-//                historyPrice.setCrateTime(new Date());
-//            }
-//
-//        }catch (Exception e){
-//
-//        }finally {
-//            if (jedis!=null){
-//                MyJedisPoolUtil.returnJedis(jedis);
-//            }
-//        }
+
 
         if (false){
             price(html,productId,page);
